@@ -1,0 +1,418 @@
+/* *{
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+
+body{
+  background-color: #F4976C;
+  /* background-image: url("images/yellow\ orange\ gradient.png"); */
+  /* background-size: 100%; */
+  /* background-color: #FF702E; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+h1 {  
+  /* font-family: 'Raleway', sans-serif;
+  font-size: 5rem; */
+  font-family: 'Fuzzy Bubbles', cursive;
+  /* font-weight: 400; */
+  font-size: 6rem;
+  line-height: 1.3;
+  font-weight: 700;
+  padding-bottom: 1rem;
+
+}
+
+h2{
+  /* font-family: 'Raleway', sans-serif;
+  font-weight: 600; */
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 400;
+  font-size: 3rem;
+  /* line-height: 1.5; */
+  color: #000;
+}
+
+h3,h4{
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 400;
+}
+
+p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.col-lg-6{
+  padding: 0;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.lowering-hierachy-black{
+  color: #2a2a2a;
+}
+.lowering-hierachy-white{
+  color: #eee;
+}
+
+/* Navigation Bar */
+
+#navigation-bar{
+  padding: 2% 5% 0%;
+  background-color: #fff;
+  background-image: url("images/yellow\ orange\ gradient.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand{
+  
+  font-size: 2.5em;
+  padding-left: 5% ;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 400;
+  
+}
+
+.nav-item{
+  padding: 0px 12px;
+  
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-weight: 400;
+}
+
+.header-logo{
+    height:50px;
+}
+
+/* Title Section  */
+
+#title{
+  text-align: center;
+  color: #fff;
+  padding-top: 2.5%;
+  padding-bottom: 1%;
+
+}
+
+.profile-img{
+  border-radius: 100%;
+  width: 80%;
+}
+
+
+.title-text{
+  text-align: left; 
+
+}
+.intro-p{
+  margin-left: 5px ;
+  /* font-family: 'Fuzzy Bubbles', cursive; */
+  font-weight: 400;
+}
+
+.hello-world{
+  padding-left: 15%;
+  /* font-family: 'Fuzzy Bubbles', cursive; */
+  font-weight: 400;
+}
+
+/* About Me  */
+
+#aboutme{
+  background-color: #fff;
+  /* background-image: url("images/light\ orangish\ background.webp");  */
+  background-size: 100%;
+  text-align: left;
+}
+
+.abt-me{
+  padding: 0%;
+  line-height: 1.5rem;
+  
+}
+
+.laptop-img{
+  width: 100%;  
+  height: 100%;
+  /* object-fit: cover; */
+  
+}
+
+/* About Me Page */
+#about-me-page-section{
+  background-image: url("images/laptop-1.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  text-align: left;
+
+}
+
+#background-blur{
+    backdrop-filter: blur(10px);
+    padding: 10% 15% 12%;
+
+}
+
+#about-me-page-section p{
+    font-size: 1.4rem;
+    padding: 2% 1% 3%;
+}
+
+
+.abt-me-div{
+  padding: 3% 5%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Education */
+
+#education{
+  color: #fff;
+  backdrop-filter: blur(15px);
+}
+
+.institute-div{
+  padding: 2% 0;
+}
+
+.institute-link{
+    color: inherit;
+    text-decoration: none;
+    /* font-size: 2rem; */
+  }
+
+.institute-link:hover{
+  text-decoration: none;
+}
+
+/* Education-Page */
+#education-page{
+
+  background-image: url("images/education-background3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+/* Interests */
+#interests{
+
+  text-align: center;
+}
+
+.carousel-item{
+  padding: 7% 15% 15%;
+}
+.carousel-text{
+  font-size: 2rem;
+}
+
+.item-1{
+  background-image: url("images/coding_image_final1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;    
+}
+
+.item-2{
+  background-image: url("images/design_image_final.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;    
+}
+
+
+.item-3{
+  background-image: url("images/dnd_final_image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;    
+}
+
+.crs-btns:hover{
+  color: orange;
+}
+
+/* Skills */
+#skills{
+  background-color: #fff;
+  padding: 3% 8% 7%;
+  text-align: center;
+}
+
+.card-group{
+  text-align: center;
+
+}
+
+.card-column{
+  /* padding: 3% 2%; */
+  padding-right: 3%;
+  padding-left: 3%;
+
+}  
+
+
+.card-img-top{
+  width: 30%;
+  height: 30%;
+  align-self: center;
+}
+
+
+/* Contact  */
+
+#get-in-touch{
+  text-align: center;
+  color: #fff;
+}
+
+.contact-me-btn {
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: 'Fuzzy Bubbles', cursive;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background: #ff8324;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 0px;
+  text-decoration: none;
+}
+
+.contact-me-btn:hover {
+  background: #f59c58;
+  background-image: -webkit-linear-gradient(top, #f59c58, #f7bc88);
+  background-image: -moz-linear-gradient(top, #f59c58, #f7bc88);
+  background-image: -ms-linear-gradient(top, #f59c58, #f7bc88);
+  background-image: -o-linear-gradient(top, #f59c58, #f7bc88);
+  background-image: linear-gradient(to bottom, #f59c58, #f7bc88);
+  text-decoration: none;
+}
+
+/* Contact */
+
+#contact{
+    text-align: center;
+    color:#fff;
+    background-image: url("images/contact-image2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#contact h2{
+    text-align:center;
+    color: #fff;
+    padding: 5% 0% 3%;
+}
+
+#contact h3{
+    padding: 1% 0 3%;
+}
+
+#contact-content{
+    backdrop-filter: blur(5px);
+}
+
+/* Socials */
+
+#socials{
+  background-image: url("images/footer-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.social-icons{
+  text-align: center;
+  
+}
+
+.s-icons{
+  padding: 2% 5%;
+  color: #fff;
+}
+
+.fa-twitter:hover{
+  color:#151560
+}
+
+.fa-linkedin:hover{
+  color:#4545eb
+}
+
+.fa-instagram:hover{
+  color:#ff00d8
+}
+
+.copyright{
+  text-align: center;
+  
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 992px){
+  
+  .profile-img{
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+  h1{
+    font-size: 4rem;
+  }
+  .title-text,.intro-p{
+    text-align: center;
+  }
+  .hello-world{
+    padding-left: 0%;
+  }
+  .navbar-brand{
+    padding-left: 0%;
+  } 
+  .divs-to-be-expanded-on-smallscreen{
+    padding: 3% 2.7%;
+    
+  }
+  .interests-div{
+    padding: 0%;
+  }
+
+  .card-img-top{
+    width: 15%;
+    height: 15%;
+  }
+}
+
+
+@media (max-width:640px) {
+  .institute-link{
+    white-space: nowrap;
+  }  
+}
+
